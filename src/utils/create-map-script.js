@@ -20,6 +20,7 @@ export function createMapScript(options) {
   googleMapScript.setAttribute('src', url)
   googleMapScript.setAttribute('async', '')
   googleMapScript.setAttribute('defer', '')
+  googleMapScript.setAttribute('id', 'gmaps-api')
 
   return googleMapScript;
 }
