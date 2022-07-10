@@ -1,3 +1,1 @@
-export class eventUtils {
-
-}
+export class eventUtils {}
